@@ -1,8 +1,11 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
+// Konfigurasi untuk GitHub Pages:
+// Repository: https://github.com/AnggunAzalia/TERRASAFEE
 export default defineConfig({
+  // Penting: sesuaikan dengan nama repository GitHub (huruf besar/kecil harus sama).
+  base: '/TERRASAFEE/',
   plugins: [react()],
   server: {
     port: 3000,
